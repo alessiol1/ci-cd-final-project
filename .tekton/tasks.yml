@@ -40,9 +40,9 @@ metadata:
   name: nose
 spec:
   workspaces:
-    - name: nose
-  params:
     - name: source
+  params:
+    - name: args
       description: Arguments to pass to nose
       type: string
       default: "-v"
